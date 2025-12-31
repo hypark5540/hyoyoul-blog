@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { allPosts } from '@/app/blog/page'
+import { allPosts } from '@/lib/posts'
 
 export default function RecentPosts() {
   const [language, setLanguage] = useState<'kr' | 'en'>('kr')
