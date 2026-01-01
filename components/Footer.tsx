@@ -10,7 +10,7 @@ export default function Footer() {
           </p>
           <div className="flex space-x-4">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/hypark5540"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition"
@@ -21,7 +21,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/hypark5540"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition"
@@ -32,7 +32,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:hypark5540@naver.com"
               className="p-2 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition"
               aria-label="Email"
             >

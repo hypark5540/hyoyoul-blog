@@ -10,17 +10,17 @@ export default function ContactPage() {
           <div>
             <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Email</h2>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:hypark5540@naver.com"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition"
             >
-              contact@example.com
+              hypark5540@naver.com
             </a>
           </div>
           <div>
             <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Social</h2>
             <div className="flex gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/hypark5540"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition"
@@ -28,7 +28,7 @@ export default function ContactPage() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/hypark5540"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition"

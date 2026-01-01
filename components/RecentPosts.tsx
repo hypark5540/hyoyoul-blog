@@ -4,7 +4,11 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { allPosts } from '@/lib/posts'
 
-export default function RecentPosts() {
+interface RecentPostsProps {
+  limit?: number
+}
+
+export default function RecentPosts({ limit }: RecentPostsProps) {
   const [language, setLanguage] = useState<'kr' | 'en'>('kr')
   const [mounted, setMounted] = useState(false)
 
@@ -37,11 +41,12 @@ export default function RecentPosts() {
     return null
   }
 
-  // 최신 포스트 3개만 표시
+  // 최신 포스트 표시 (limit이 있으면 해당 개수만큼, 없으면 기본값 3개)
+  const displayLimit = limit ?? 3
   const recentPosts = allPosts
     .filter(post => !post.isDraft)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 3)
+    .slice(0, displayLimit)
 
   return (
     <div className="space-y-6">
